@@ -1,0 +1,38 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/background.jpg");
+    overflow-y: scroll;
+}
+
+#login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-logo-container{
+    width: 200px;
+    height: 150px;
+    margin:50px auto;
+}
+.login-logo{
+    width:inherit;
+    height: inherit;
+}
+.login-form {
+    width: 300px;
+}
+
+.login-form-forgot {
+    float: right;
+}
+
+.login-form-check {
+    color: red;
+}
+.login-form-button{
+    width: 100%;
+}

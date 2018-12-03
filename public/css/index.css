@@ -1,0 +1,83 @@
+.logo-container {
+    display: inline-block;
+    width: 13%;
+    height: inherit;
+    float: left;
+}
+
+.title-container {
+    display: inline-block;
+    font-size: large;
+    width:50%;
+    height:inherit;
+}
+
+.right-container {
+    display: inline-block;
+    height: inherit;
+    float: right;
+}
+.right-container span{
+    display: inline;
+    height: inherit;
+    margin: 0 20px 0 0;
+}
+.right-container ul{
+    display: inline;
+    height: inherit;
+}
+.right-container ul li{
+    display: inline;
+    margin: 0 20px 0 0;
+}
+.right-container ul li a{
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+}
+.content-container {
+    padding: 10px 50px;
+    background-image: url("../img/background.jpg");
+}
+
+.logo {
+    width: 100%;
+    height: inherit;
+    margin-bottom: 5px;
+}
+
+.nav-img-container {
+    width:-moz-fit-content;
+    width: fit-content;
+    margin: 50px auto;
+}
+.nav-img-container-last {
+    width:-moz-fit-content;
+    width:fit-content;
+    margin: 50px auto;
+}
+
+.nav-img {
+    display: inline-block;
+    width: 150px;
+    height: 115px;
+    background: #9e9e9ec2;
+    margin:10px 50px;
+}
+.nav-img img{
+    width: 150px;
+    height:90px;
+}
+.nav-a{
+    color: antiquewhite;
+    display: inline-block;
+    height: 20px;
+    text-align: center;
+    width: inherit;
+}
+.modify-success{
+    display: none;
+    color:green;
+}
+.modify-btn{
+    margin-top: 10px;
+}

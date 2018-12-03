@@ -1,0 +1,38 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/background.jpg");
+    overflow-y: scroll;
+}
+
+#reset {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.reset-logo-container{
+    width: 200px;
+    height: 150px;
+    margin:50px auto;
+}
+.reset-logo{
+    width:inherit;
+    height: inherit;
+}
+.reset-form {
+    width: 300px;
+}
+
+.reset-form-forgot {
+    float: right;
+}
+
+.reset-form-check {
+    color: red;
+}
+.reset-form-button{
+    width: 100%;
+}
